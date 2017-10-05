@@ -6,7 +6,7 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && yarn run -s serve || yarn run -s dev",
     "build": "preact build",
-    "serve": "preact build && preact serve",
+    "serve": "preact build --no-prerender && firebase serve",
     "dev": "preact watch",
     "test": "eslint src && preact test"
   },
@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-config-synacor": "^2.0.0",
+    "firebase": "^4.5.0",
     "if-env": "^1.0.0",
     "preact-cli": "^1.4.1"
   },
