@@ -5,3 +5,5 @@ Start project with
 ```
 preact create preact-firestore
 ```
+
+`firebase init`
