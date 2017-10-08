@@ -1,6 +1,6 @@
 {
-  "name": "artmandi",
-  "version": "1.0.0",
+  "name": "preact-firestore",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -17,13 +17,16 @@
     "eslint": "^4.8.0",
     "eslint-config-synacor": "^2.0.0",
     "firebase": "^4.5.0",
+    "firebase-tools": "^3.13.1",
     "if-env": "^1.0.0",
     "preact-cli": "^1.4.1"
   },
   "dependencies": {
+    "global": "^4.3.2",
     "linkstate": "^1.1.0",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
+    "preact-redux": "^2.0.3",
     "preact-router": "^2.5.7"
   }
 }
